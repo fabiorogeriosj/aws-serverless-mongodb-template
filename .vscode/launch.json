@@ -1,0 +1,17 @@
+{
+	"version": "0.0.1",
+	"configurations": [
+		{
+			"name": "api",
+			"type": "node",
+			"request": "launch",
+			"cwd": "${workspaceRoot}",
+			"runtimeExecutable": "npm",
+			"runtimeArgs": [
+				"run-script",
+				"debug"
+			],
+			"port": 9229
+		}
+	]
+}
