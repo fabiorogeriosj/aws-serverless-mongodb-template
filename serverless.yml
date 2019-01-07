@@ -5,7 +5,7 @@ provider:
     memorySize: 128
     timeout: 30
     stage: pro
-    region: sa-east-1
+    region: us-east-1
 functions:
     users:
         handler: handler.users
