@@ -5,7 +5,7 @@
   "main": "handler.js",
   "scripts": {
     "start": "serverless offline start",
-    "test": "cross-env NODE_ENV=test jest --env=node --detectOpenHandles --watchAll --coverage --runInBand",
+    "test": "cross-env NODE_ENV=test jest --env=node --detectOpenHandles --coverage --runInBand --forceExit",
     "deploy": "cross-env NODE_ENV=production serverless deploy --aws-profile my-aws-profile",
     "debug": "cross-env NODE_ENV=development SLS_DEBUG=* node --inspect ./node_modules/serverless/bin/serverless offline start"
   },
